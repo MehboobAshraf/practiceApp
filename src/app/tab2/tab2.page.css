@@ -1,0 +1,42 @@
+.fixed-header {
+  position: relative; }
+  .fixed-header .interactive-map {
+    background: #ed0020;
+    position: absolute;
+    top: 0;
+    right: 17px;
+    z-index: 9999; }
+    .fixed-header .interactive-map h1 {
+      text-transform: uppercase;
+      font-size: 12px;
+      letter-spacing: 1px;
+      font-weight: 800;
+      color: #fff;
+      margin: 0;
+      padding: 10px; }
+
+.content {
+  position: relative; }
+  .content img {
+    display: block;
+    height: 500px;
+    width: 100%; }
+  .content .text {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    bottom: 30px;
+    color: #fff;
+    width: 100%;
+    padding: 0 0 0 20px; }
+    .content .text h1 {
+      font-weight: 600;
+      margin: 0 80px 10px 0; }
+  .content::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to bottom, #ffffff00 0%, black 98%);
+    width: 100%;
+    height: 240px; }
+
+/*# sourceMappingURL=tab2.page.css.map */
