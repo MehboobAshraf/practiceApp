@@ -4,13 +4,13 @@
     background: #ed0020;
     position: absolute;
     top: 0;
-    right: 17px;
+    right: 0;
     z-index: 9999;
     h1{
       text-transform: uppercase;
-      font-size: 12px;
+      font-size: 14px;
       letter-spacing: 1px;
-      font-weight: 800;
+      font-weight: 700;
       color: #fff;
       margin: 0;
       padding: 10px;
@@ -19,10 +19,12 @@
 }
 .content{
   position: relative;
+  height: 100%;
   img{
     display: block;
-    height: 500px;
+    height: 100%;
     width: 100%;
+    object-fit: cover;
   }
   .text{
     font-family: 'Poppins', sans-serif;
@@ -44,4 +46,7 @@
     width: 100%;
     height: 240px;
   }
+}
+.operation-content{
+  height: 50%;
 }
